@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class ShowClothValue {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner input=new Scanner(System.in);
 		String type;
 		Size size;
